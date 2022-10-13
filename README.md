@@ -1,6 +1,9 @@
 ### GETTING STARTED
 Automation test using  cypress. UI and API.
 
+UI Automation Test File : cypress/e2e/UI-Automation.cy.js
+API Automation Test File : cypress/e2e/api-test.cy.js
+
 ### Installation
 1. Register to get the API token key -  [https://www.weatherbit.io/account/create](https://www.weatherbit.io/account/create)
 2. Clone the repo
