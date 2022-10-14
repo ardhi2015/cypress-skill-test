@@ -1,7 +1,6 @@
 const locator = require("../page-object/locator");
 import suburbData from '../page-object/suburb.json'
-
-let base_url = Cypress.env('url_ui')
+const base_url = Cypress.env('url_ui')
 
 describe('empty spec', () => {
   it('passes', () => {

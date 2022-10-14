@@ -1,8 +1,8 @@
 describe('API Testing', () => {
     
-    let base_url = Cypress.env('base_url')
+    const base_url = Cypress.env('base_url')
     Cypress.config('baseUrl', `${base_url}`)
-    let key = Cypress.env('api_key')
+    const key = Cypress.env('api_key')
 
     it('Get Current Weather Data by longitud and latitude', () => {
         cy.request(`/current?lat=38&lon=78&key=${key}`).then((response) => {
